@@ -1,0 +1,19 @@
+{
+  "name": "sharun-em-portfolio",
+  "version": "1.0.0",
+  "description": "Personal cinematographer & colorist portfolio for Sharun E M",
+  "scripts": {
+    "build": "tinacms build && eleventy",
+    "serve": "eleventy --serve",
+    "dev": "tinacms dev -c \"eleventy --serve\"",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^2.6.1",
+    "luxon": "^3.7.2",
+    "tinacms": "^3.12.1"
+  }
+}
